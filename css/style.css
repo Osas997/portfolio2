@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Patrick+Hand&family=Poppins&family=Ubuntu&display=swap');
+:root{
+    --maincolor : rgb(120, 200, 203);
+    --secondcolor : #333646;
+    --ascentcolor : #ff9100;
+    --ubuntu : 'Ubuntu', sans-serif;
+    --patrick : 'Patrick Hand', cursive;
+    --poppins : 'Poppins', sans-serif;
+    --nunito : 'Nunito', sans-serif;
+}
+
+*,html,body{
+    font-family: var(--poppins);
+}
+
+body{
+    background-color: #fff;
+    min-height: 3000px;
+}
+
+.nav-item:hover a{
+    color: #fff !important;
+}
+
+.hero{
+    padding-top: 4.5rem;
+    padding-bottom: 3rem;
+}
+.herosec{
+    background-color: var(--maincolor);
+}
+.btn:focus{
+    box-shadow: none;
+}
+
+.text-content{
+    font-family: var(--ubuntu);
+    font-weight: 550;
+}
+#project{
+    background-color: var(--maincolor);
+}
+#footer{
+    background-color: #0D6EFD;
+}
+
+section{
+    scroll-margin-top: 50px;
+}
